@@ -1,0 +1,32 @@
+{
+  "name": "mini-student-management-system",
+  "version": "1.0.0",
+  "description": "Mini Student Management System based on PRD",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "student-portal",
+    "education",
+    "management",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^6.10.0",
+    "otplib": "^13.5.0",
+    "pg": "^8.23.0",
+    "sqlite3": "^6.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
